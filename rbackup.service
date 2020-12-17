@@ -1,0 +1,8 @@
+[Unit]
+Description=Redis Backup service
+
+[Service]
+ExecStart=/opt/redis_backup/rbackup.py
+
+[Install]
+WantedBy=multi-user.target
