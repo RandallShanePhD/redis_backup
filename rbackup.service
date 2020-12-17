@@ -2,6 +2,7 @@
 Description=Redis Backup service
 
 [Service]
+Type=simple
 ExecStart=/opt/redis_backup/rbackup.py
 
 [Install]
