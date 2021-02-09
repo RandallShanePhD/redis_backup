@@ -9,7 +9,7 @@ from time import sleep
 
 while True:
     hr = datetime.datetime.now().hour
-    src = '/var/lib/redis/rdump.rdb'
+    src = '/var/lib/redis/dump.rdb'
     dst = '/opt/redis_backup/backups/rdump_%s.rdb' % hr
     shutil.copy(src, dst)
     sleep(3600)
