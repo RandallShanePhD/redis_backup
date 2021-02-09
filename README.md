@@ -6,6 +6,8 @@ Simple hourly redis persistence file backup service.
    * Assure it is named rbackup.service
 2. Make sure that your script is executable with:
    * chmod u+x /path/to/rbackup.py
+3. Edit the rbackup.py and change file names
+   * Only IF you have renamed your persistence file
 3. Reload systemctl
    * sudo systemctl daemon-reload
 4. Start it
