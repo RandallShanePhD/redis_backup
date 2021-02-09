@@ -13,7 +13,7 @@ Simple hourly redis persistence file backup service.
 4. Start it
    * sudo service rbackup start
 5. Check it
-   * sudo service rbackupstatus
+   * sudo service rbackup status
 6. Enable it to run at boot:
    * sudo systemctl enable rbackup
 
