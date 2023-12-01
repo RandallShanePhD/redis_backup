@@ -1,5 +1,5 @@
 # redis_backup
-Simple hourly redis persistence file backup service.
+Simple hourly redis persistence file backup service for Ubuntu servers.
 
 ## Make it a Service
 0. As ROOT, clone this repo to /opt directory.
